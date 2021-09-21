@@ -24,6 +24,9 @@ namespace ListingLocalDataApp
         }
 
 
+        public string[] Devices = new string[] {"Printer","SmartPhone","Speaker","SmartBuble","SmartCamera","Tablet","PC","Modem","Router","Switch","Laptop","PSP4","WiiU"};
+
+
         public List<string> Greetings = new List<string>()
         {
             "Hi",

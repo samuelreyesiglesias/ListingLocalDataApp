@@ -57,6 +57,13 @@ namespace ListingLocalDataApp
                 Console.WriteLine($"Number selected using Linq:{NSelected}");
             }
 
+            var SelectedDevices=from string Device_ in new ListsClass().Devices where Device_.Length > 5 select Device_;
+
+            foreach(var DeviceItem in SelectedDevices)
+            {
+                Console.WriteLine("Device selected:" + DeviceItem);
+            }
+
          }
     }
 }
